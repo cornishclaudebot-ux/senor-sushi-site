@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<link rel="stylesheet" href="styles.css?v=2">
+<link rel="stylesheet" href="styles.css?v=3">
 <link rel="canonical" href="https://www.senorsushiphoenix.com/">
 <script>document.documentElement.classList.add('js')</script>
 <script type="application/ld+json">
@@ -225,7 +225,7 @@
 </main>
 
 <div id="footer-mount"></div>
-<script src="app.js?v=2"></script>
+<script src="app.js?v=3"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 (function(){
@@ -234,7 +234,7 @@
   var SPOT=[33.4949,-112.1517];
   var map=L.map(el,{zoomControl:false,attributionControl:false,scrollWheelZoom:false,dragging:false,doubleClickZoom:false,boxZoom:false,keyboard:false,touchZoom:false}).setView(SPOT,15);
   L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{maxZoom:19,subdomains:'abcd'}).addTo(map);
-  var icon=L.divIcon({className:'bar-marker',html:'<span class="bm-ping"></span><svg class="bm-pin" viewBox="0 0 24 34" width="30" height="42"><path d="M12 0C5.9 0 1 4.9 1 11c0 7.7 9.6 21.3 10 21.9.2.3.6.3.8 0C12.4 32.3 23 18.7 23 11 23 4.9 18.1 0 12 0z" fill="#E8B33C" stroke="#0b0b0b" stroke-width="1.4"/><circle cx="12" cy="11" r="4" fill="#0b0b0b"/></svg>',iconSize:[30,42],iconAnchor:[15,40]});
+  var icon=L.divIcon({className:'bar-marker',html:'<span class="bm-ping"></span><svg class="bm-pin" viewBox="0 0 24 34" width="30" height="42"><path d="M12 0C5.9 0 1 4.9 1 11c0 7.7 9.6 21.3 10 21.9.2.3.6.3.8 0C12.4 32.3 23 18.7 23 11 23 4.9 18.1 0 12 0z" fill="#E8232B" stroke="#0b0b0b" stroke-width="1.4"/><circle cx="12" cy="11" r="4" fill="#0b0b0b"/></svg>',iconSize:[30,42],iconAnchor:[15,40]});
   L.marker(SPOT,{icon:icon}).addTo(map);
   setTimeout(function(){map.invalidateSize();},400);
   window.addEventListener('resize',function(){map.invalidateSize();});

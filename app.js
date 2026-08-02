@@ -167,7 +167,7 @@ function buildFooter(){
     </div>
     <div class="foot-bottom">
       <span>© 2026 Señor Sushi Phoenix · 4324 W Indian School Rd, Phoenix, AZ</span>
-      <span>This is... Señor Sushi</span>
+      <span style="color:var(--rojo);font-weight:600">This is... Señor Sushi</span>
     </div>
   </footer>`;
 }

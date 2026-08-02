@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=2">
+<link rel="stylesheet" href="styles.css?v=3">
 <link rel="canonical" href="https://www.senorsushiphoenix.com/contact.html">
 <script>document.documentElement.classList.add('js')</script>
 </head>
@@ -47,11 +47,23 @@
       </div>
 
       <div class="reveal d1">
-        <div class="visit-info" style="padding:0 0 26px">
-          <div class="row"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7zm0 9.5A2.5 2.5 0 1112 6.5a2.5 2.5 0 010 5z"/></svg></div><div><div class="lbl">Phoenix</div><div class="val"><a href="#" data-cfg="map" target="_blank" rel="noopener">4324 W Indian School Rd<small>Phoenix, AZ 85031</small></a></div></div></div>
-          <div class="row"><div class="ic"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2a1 1 0 011-.24 11 11 0 003.5.56 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11 11 0 00.56 3.5 1 1 0 01-.24 1z"/></svg></div><div><div class="lbl">Phone</div><div class="val"><a href="#" data-cfg="tel">(623) 849-9312</a></div></div></div>
-          <div class="row"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zm2 4 6 4 6-4"/></svg></div><div><div class="lbl">Email</div><div class="val"><a href="#" data-cfg="mail">info@senorsushiphoenix.com</a></div></div></div>
-          <div class="row"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 1a11 11 0 100 22 11 11 0 000-22zm1 11h5v2h-7V6h2z"/></svg></div><div><div class="lbl">Hours</div><div class="val">Open Daily at 11 AM<small>Sun to Thu til 10 PM · Fri and Sat til 11 PM · Happy Hour Mon to Fri 2 to 7</small></div></div></div>
+        <div class="loc-grid" style="grid-template-columns:1fr;margin-top:0;margin-bottom:16px">
+          <a class="loc icard" href="#" data-cfg="map" target="_blank" rel="noopener">
+            <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7zm0 9.5A2.5 2.5 0 1112 6.5a2.5 2.5 0 010 5z"/></svg></div>
+            <div><div class="lbl">Phoenix</div><div class="val">4324 W Indian School Rd<small>Phoenix, AZ 85031 · Tap for directions</small></div></div>
+          </a>
+          <a class="loc icard" href="#" data-cfg="tel">
+            <div class="ic"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2a1 1 0 011-.24 11 11 0 003.5.56 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11 11 0 00.56 3.5 1 1 0 01-.24 1z"/></svg></div>
+            <div><div class="lbl">Phone</div><div class="val">(623) 849-9312<small>Tap to call the bar</small></div></div>
+          </a>
+          <a class="loc icard" href="#" data-cfg="mail">
+            <div class="ic"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zm2 4 6 4 6-4"/></svg></div>
+            <div><div class="lbl">Email</div><div class="val">info@senorsushiphoenix.com<small>Tap to write us</small></div></div>
+          </a>
+          <a class="loc icard" href="specials.html">
+            <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 1a11 11 0 100 22 11 11 0 000-22zm1 11h5v2h-7V6h2z"/></svg></div>
+            <div><div class="lbl">Hours</div><div class="val">Open Daily at 11 AM<small>Sun to Thu til 10 PM · Fri and Sat til 11 PM · Happy Hour Mon to Fri 2 to 7</small></div></div>
+          </a>
         </div>
 
         <div class="loc-grid" style="grid-template-columns:1fr;margin-top:0">
@@ -78,6 +90,6 @@
 </main>
 
 <div id="footer-mount"></div>
-<script src="app.js?v=2"></script>
+<script src="app.js?v=3"></script>
 </body>
 </html>
